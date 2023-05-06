@@ -8,9 +8,9 @@ export default function App() {
       <View style={styles.taskswrapper}>
         <Text style={styles.sectionTitle}>Tytuł taska</Text>
         <View style={styles.items}>
-          <Task />
-          <Task />
-          <Task />
+          <Task text="Task1" />
+          <Task text="Task2" />
+          <Task text="Mleko3" />
           <Task />
         </View>
       </View>
